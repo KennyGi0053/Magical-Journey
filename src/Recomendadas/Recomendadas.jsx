@@ -7,7 +7,7 @@ const Recomendadas = () => {
         <div className="Card">
         <div className="w-full h-3/5 rounded-t-lg bg-norway bg-cover"></div>
         <div className="w-full h-2/5 bg-secondary rounded-b-lg">
-        <p className="text-white text-bold text-xl px-4 p-2">Norway</p>
+        <p className="text-white text-bold text-xl px-4 p-2">Noruega</p>
         <p className="text-white text-md px-4">Paisajes Increíbles</p>
         
         </div>
@@ -32,7 +32,7 @@ const Recomendadas = () => {
         
         </div>
         <div className="Card">
-        <div className="w-full h-3/5 rounded-t-lg bg-norway bg-cover"></div>
+        <div className="w-full h-3/5 rounded-t-lg bg-chicago bg-cover"></div>
         <div className="w-full h-2/5 bg-white rounded-b-lg">
         <p className="text-terciary text-bold text-xl px-4 p-2">Chicago</p>
         <p className="text-terciary text-md px-4">El imponente perfil arquitectónico</p>
@@ -88,7 +88,7 @@ const Recomendadas = () => {
         <div className="Card">
         <div className="w-full h-3/5 rounded-t-lg bg-switzerland bg-cover"></div>
         <div className="w-full h-2/5 bg-white rounded-b-lg">
-        <p className="text-terciary text-bold text-xl px-4 p-2">Switzerland</p>
+        <p className="text-terciary text-bold text-xl px-4 p-2">Suiza</p>
         <p className="text-terciary text-md px-4">Uno de los destinos más populares</p>
         
         </div>

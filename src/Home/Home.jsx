@@ -1,4 +1,6 @@
+import Faqs from '../Faqs/Faqs'
 import Recomendadas from '../Recomendadas/Recomendadas'
+import Rentasdestacadas from '../Rentas destacadas/Rentasdestacadas'
 import sanFrancisco from '../assets/sanFrancisco.jpg'
 
 const Home = () => {
@@ -14,6 +16,8 @@ const Home = () => {
         <img src={sanFrancisco} />
     </div>
     <Recomendadas/>
+    <Rentasdestacadas/>
+    <Faqs/>
 
   </div>
   )
