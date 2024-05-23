@@ -8,26 +8,26 @@ const Faqs = () => {
     <div className='text-3xl text-primary font-semibold mt-6'>FAQS</div>
     <div>
         <p className="text-xl font-medium text-primary pt-2">Política de cancelación</p>
-        <p className="text-md pt-2 mb-4 text-justify">
+        <p className="text-md pt-2 mb-4 text-justify leading-relaxed">
         Entendemos que a veces los planes cambian. Nuestra política de cancelación está diseñada para ofrecer flexibilidad
         y claridad a nuestros clientes. A continuación, se detalla nuestra política de cancelación:
         </p>
-        <p className="text-md pt-2 mb-4 text-justify">
+        <p className="text-md pt-2 mb-4 text-justify text-primary font-medium">
         Cancelaciones con 30 días o más de antelación:
         </p>
         <p className="text-sm mb-4 text-justify">
         Se ofrecerá un reembolso completo del importe pagado.
         </p>
-        <p className="text-md pt-2 mb-4 text-justify">
+        <p className="text-md pt-2 mb-4 text-justify text-primary font-medium">
         Cancelaciones entre 15 y 29 días de antelación:
         </p>
         <p className="text-sm mb-4 text-justify">
         Se reembolsará el 50% del importe pagado.
         </p>
-        <p className="text-md pt-2 mb-4 text-justify">
+        <p className="text-md pt-2 mb-4 text-justify text-primary font-medium">
         Cancelaciones con menos de 15 días de antelación:
         </p>
-        <p className="text-sm mb-4 text-justify">
+        <p className="text-sm mb-4 text-justify leading-relaxed">
         No se ofrecerán reembolsos. Sin embargo, se podrá reprogramar la reserva para una fecha futura, 
         sujeto a disponibilidad y posible ajuste de tarifa.
         </p>

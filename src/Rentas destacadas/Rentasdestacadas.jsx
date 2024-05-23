@@ -1,33 +1,70 @@
-
-
+import chicago from '../assets/chicago.jpg'
+import LA from '../assets/LA.jpg'
+import miami from '../assets/miami.jpg'
+import bali from '../assets/bali.jpg'
 const Rentasdestacadas = () => {
   return (
-    <div className="px-4 h-full w-full">
-      <p className="text-3xl text-primary font-semibold pb-6 mt-6">Rentas Destacadas</p>
-      <div className="w-full h-full flex flex-col space-y-6 items-center justify-center">
-      <div className="w-full h-96 bg-chicago bg-cover rounded-xl ">
-        <p className="CardTitle">Chicago</p>
-        <p className="text-sm pl-8 text-black mr-24">2 habitaciones, baño y cocina</p>
-      </div>
-      <div className="w-full h-96 bg-norway bg-cover rounded-xl ">
-        <p className="CardTitle">Noruega</p>
-        <p className="text-sm pl-8 text-black mr-24">3 habitaciones con vista al paisaje Noruego</p>
-      </div>
-      <div className="w-full h-96 bg-switzerland bg-cover rounded-xl ">
-        <p className="CardTitle">Suiza</p>
-        <p className="text-sm pl-8 text-black mr-24">1 habitación con baño y cocina</p>
-      </div>
-      <div className="w-full h-96 bg-LA bg-cover rounded-xl ">
-        <p className="CardTitle">Los Ángeles</p>
-        <p className="text-sm pl-8 text-black mr-24">2 habitaciones con baño, cocina y piscina en Beverly Hills</p>
-      </div>
-      <div className="w-full h-96 bg-miami bg-cover rounded-xl ">
-        <p className="CardTitle">Miami</p>
-        <p className="text-sm pl-8 text-black mr-24">3 habitaciones cerca del mar con baño y cocina </p>
-      </div>
-      </div>
-
+    <div className="h-full w-full px-6">
+    <p className="text-3xl text-primary font-semibold pb-6 mt-6">
+        Rentas destacadas
+    </p>
+    <div
+        className="w-ful h-full grid grid-cols-1 lg:grid-cols-2 lg:place-items-center gap-4 lg:place-content-stretch"
+    >
+        <div
+            className="relative w-full h-96 rounded-lg overflow-hidden lg:col-span-2"
+        >
+            <img
+                className="object-cover h-full w-full"
+                src={chicago}
+                alt=""
+            />
+            <div className="absolute top-0 left-0 ">
+                <p className="text-3xl px-8 pt-8 pb-2 font-semibold text-light text-white">Chicago</p>
+                <p className="text-sm pl-8 text-light mr-24 text-white font-bold">
+                    2 habitaciones, baño y cocina con vista la ciudad
+                </p>
+            </div>
+        </div>
+        <div
+            className="relative w-full h-96 rounded-lg overflow-hidden lg:row-span-2 lg:h-[49rem]"
+        >
+            <img className="object-cover h-full w-full" src={LA} alt="" />
+            <div className="absolute top-0 left-0">
+                <p className="text-3xl px-8 pt-8 pb-2 font-semibold text-light text-white">Los Angeles</p>
+                <p className="text-sm pl-8 text-light mr-24 text-white font-bold">
+                    2 habitaciones, baño y cocina en Beverly Hills
+                </p>
+            </div>
+        </div>
+        <div className="relative w-full h-96 rounded-lg overflow-hidden">
+            <img
+                className="object-cover h-full w-full"
+                src={miami}
+                alt=""
+            />
+            <div className="absolute top-0 left-0">
+                <p className="text-3xl px-8 pt-8 pb-2 font-semibold text-light text-white">Miami</p>
+                <p className="text-sm pl-8 text-light mr-24 text-white font-bold">
+                    3 habitaciones, baño y cocina con vista al mar
+                </p>
+            </div>
+        </div>
+        <div className="relative w-full h-96 rounded-lg overflow-hidden">
+            <img
+                className="object-cover h-full w-full"
+                src={bali}
+                alt=""
+            />
+            <div className="absolute top-0 left-0">
+                <p className="text-3xl px-8 pt-8 pb-2 font-semibold text-light text-white">Bali</p>
+                <p className="text-sm pl-8 text-light mr-24 text-white font-bold">
+                    1 habitación, baño, cocina y piscina
+                </p>
+            </div>
+        </div>
     </div>
+</div>
   )
 }
 

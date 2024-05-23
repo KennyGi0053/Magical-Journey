@@ -53,7 +53,7 @@ const Recomendadas = () => {
         <div className="w-full h-3/5 rounded-t-lg bg-iceland bg-cover"></div>
         <div className="w-full h-2/5 bg-white rounded-b-lg">
         <p className="text-terciary text-bold text-xl px-4 p-2">Iceland</p>
-        <p className="text-terciary text-md px-4">Mayor bloque comercial del mundo</p>
+        <p className="text-terciary text-sm px-4 ">espectaculares montañas, volcanes, y icebergs</p>
         
         </div>
         
