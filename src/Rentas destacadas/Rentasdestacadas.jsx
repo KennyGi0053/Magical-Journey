@@ -4,8 +4,8 @@ import miami from '../assets/miami.jpg'
 import bali from '../assets/bali.jpg'
 const Rentasdestacadas = () => {
   return (
-    <div className="h-full w-full px-6">
-    <p className="text-3xl text-primary font-semibold pb-6 mt-6">
+    <div className="h-full w-full px-6 dark:bg-gray-900">
+    <p className="text-3xl text-primary font-semibold pb-6 mt-6 dark dark:text-white">
         Rentas destacadas
     </p>
     <div
@@ -20,8 +20,8 @@ const Rentasdestacadas = () => {
                 alt=""
             />
             <div className="absolute top-0 left-0 ">
-                <p className="text-3xl px-8 pt-8 pb-2 font-semibold text-light text-white">Chicago</p>
-                <p className="text-sm pl-8 text-light mr-24 text-white font-bold">
+                <p className="text-3xl px-8 pt-8 pb-2 font-semibold text-light text-white dark:text-terciary">Chicago</p>
+                <p className="text-sm pl-8 text-light mr-24 text-white font-bold dark:text-terciary">
                     2 habitaciones, baño y cocina con vista la ciudad
                 </p>
             </div>
@@ -31,8 +31,8 @@ const Rentasdestacadas = () => {
         >
             <img className="object-cover h-full w-full" src={LA} alt="" />
             <div className="absolute top-0 left-0">
-                <p className="text-3xl px-8 pt-8 pb-2 font-semibold text-light text-white">Los Angeles</p>
-                <p className="text-sm pl-8 text-light mr-24 text-white font-bold">
+                <p className="text-3xl px-8 pt-8 pb-2 font-semibold text-light text-white dark:text-terciary">Los Angeles</p>
+                <p className="text-sm pl-8 text-light mr-24 text-white font-bold dark:text-terciary">
                     2 habitaciones, baño y cocina en Beverly Hills
                 </p>
             </div>
@@ -44,8 +44,8 @@ const Rentasdestacadas = () => {
                 alt=""
             />
             <div className="absolute top-0 left-0">
-                <p className="text-3xl px-8 pt-8 pb-2 font-semibold text-light text-white">Miami</p>
-                <p className="text-sm pl-8 text-light mr-24 text-white font-bold">
+                <p className="text-3xl px-8 pt-8 pb-2 font-semibold text-light text-white dark:text-terciary">Miami</p>
+                <p className="text-sm pl-8 text-light mr-24 text-white font-bold dark:text-terciary">
                     3 habitaciones, baño y cocina con vista al mar
                 </p>
             </div>
@@ -57,8 +57,8 @@ const Rentasdestacadas = () => {
                 alt=""
             />
             <div className="absolute top-0 left-0">
-                <p className="text-3xl px-8 pt-8 pb-2 font-semibold text-light text-white">Bali</p>
-                <p className="text-sm pl-8 text-light mr-24 text-white font-bold">
+                <p className="text-3xl px-8 pt-8 pb-2 font-semibold text-light text-white dark:text-terciary">Bali</p>
+                <p className="text-sm pl-8 text-light mr-24 text-white font-bold dark:text-terciary">
                     1 habitación, baño, cocina y piscina
                 </p>
             </div>
