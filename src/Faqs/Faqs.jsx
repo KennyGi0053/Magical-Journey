@@ -9,8 +9,10 @@ const Faqs = () => {
     <div>
         <p className="text-xl font-medium text-primary pt-2 dark:text-terciary">Política de cancelación</p>
         <p className="text-md pt-2 mb-4 text-justify leading-relaxed dark:text-terciary">
-        Entendemos que a veces los planes cambian. Nuestra política de cancelación está diseñada para ofrecer flexibilidad
-        y claridad a nuestros clientes. A continuación, se detalla nuestra política de cancelación:
+        Entendemos que a veces los planes cambian. Nuestra política de cancelación está diseñada para ofrecer flexibilidad 
+        <br />
+        y claridad a nuestros clientes. 
+        A continuación, se detalla nuestra política de cancelación:
         </p>
         <p className="text-md pt-2 mb-4 text-justify text-primary font-medium dark:text-terciary">
         Cancelaciones con 30 días o más de antelación:

@@ -1,10 +1,10 @@
 
 const Recomendadas = () => {
   return (
-    <div className="p-6">
-        <p className="text-3xl font-semibold text-primary dark:text-white">Recomendados</p>
-        <div className="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-6 overflow-y-hidden">
-        <div className="Card">
+    <div className="p-6 ">
+        <p className="text-3xl font-semibold text-primary dark:text-terciary">Recomendados</p>
+        <div className="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-6 overflow-y-hidden ">
+        <div className="Card ">
         <div className="w-full h-3/5 rounded-t-lg bg-norway bg-cover"></div>
         <div className="w-full h-2/5 bg-secondary rounded-b-lg dark:bg-gray-700">
         <p className="text-white text-bold text-xl px-4 p-2 dark:text-terciary">Noruega</p>

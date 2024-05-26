@@ -5,11 +5,11 @@ import bali from '../assets/bali.jpg'
 const Rentasdestacadas = () => {
   return (
     <div className="h-full w-full px-6 dark:bg-gray-900">
-    <p className="text-3xl text-primary font-semibold pb-6 mt-6 dark dark:text-white">
+    <p className=" text-3xl text-primary font-semibold pb-6 mt-6 dark:text-terciary">
         Rentas destacadas
     </p>
     <div
-        className="w-ful h-full grid grid-cols-1 lg:grid-cols-2 lg:place-items-center gap-4 lg:place-content-stretch"
+        className="w-ful h-full grid grid-cols-1 lg:grid-cols-2 lg:place-items-center gap-4 lg:place-content-stretch "
     >
         <div
             className="relative w-full h-96 rounded-lg overflow-hidden lg:col-span-2"
