@@ -4,8 +4,8 @@ import miami from '../assets/miami.jpg'
 import bali from '../assets/bali.jpg'
 const Rentasdestacadas = () => {
   return (
-    <div className="h-full w-full px-6 dark:bg-gray-900">
-    <p className=" text-3xl text-primary font-semibold pb-6 mt-6 dark:text-terciary">
+    <div className="h-full w-full px-6 dark:bg-gray-900 ">
+    <p className=" text-3xl text-primary font-semibold pb-8 mt-6 dark:text-terciary">
         Rentas destacadas
     </p>
     <div

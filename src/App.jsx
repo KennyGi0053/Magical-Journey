@@ -5,7 +5,7 @@ function App() {
 
   
   return (
-    <div>
+    <div className='dark:bg-gray-900'>
       <Home/>
       
     </div>

@@ -14,11 +14,11 @@ const Home = () => {
     setDarkMode(!darkMode);
   };
   return (
-      <div className={`${darkMode ? 'dark' : ''} w-full h-full `} >
+      <div className={`${darkMode ? 'dark' : ''} w-full h-full dark:bg-gray-900`}>
       <NavBar toggleDarkMode={toggleDarkMode}/>
-        <div className='w-full md:w-auto h-3/5 md:h-auto overscroll-y-contain dark:bg-gray-900'>
+        <div className='w-full md:w-auto h-3/5 md:h-auto overscroll-y-contain'>
 
-    <div className="w-full h-full flex flex-col absolute space-y-48 py-4 items-center lg:space-y-0 lg:items-start lg:pt-32 lg:justify-start dark:bg-gray-900">
+    <div className="w-full h-full flex flex-col absolute space-y-48 py-4 items-center lg:space-y-0 lg:items-start lg:pt-32 lg:justify-start">
         <input className="outline-none p-3 rounded-full shadow-sm transition duration-300 focus-whitin:shadow-sm focus:ring-2 focus:w-11/12 lg:hidden" placeholder='SanFrancisco' type="search" name="" id="" />
         <div className='hidden h-auto lg:w-2/3 lg:flex pb-6'>
             <p className='text-4xl ml-16 font-bold text-white dark:text-terciary'>Encuentra más ubicaciones como ésta</p>
@@ -31,7 +31,7 @@ const Home = () => {
         <img className='lg:hidden h-96' src={sanFrancisco} alt='sanFrancisco'/>
     </div>
         </div>
-    <div id="recomendadas">
+    <div id="recomendadas" className="dark">
     <Recomendadas/>
     </div>
     <div id="rentasdestacadas">
