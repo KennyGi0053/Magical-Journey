@@ -31,7 +31,7 @@ const Home = () => {
         <img className='lg:hidden h-96' src={sanFrancisco} alt='sanFrancisco'/>
     </div>
         </div>
-    <div id="recomendadas" className="dark">
+    <div id="recomendadas">
     <Recomendadas/>
     </div>
     <div id="rentasdestacadas">
